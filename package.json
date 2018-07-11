@@ -1,0 +1,21 @@
+{
+  "name" : "crowdfunding",
+  "version" : "0.0.1",
+  "description":"funding API",
+  "keywords" : ["funding", "application", "api"],
+  "author" : "felix  <fjc43@uclive.ac.nz>",
+  "main" : "assignment_app.js",
+  "scripts": {
+    "start" : "node assignment_app.js"
+  },
+  "dependencies" : {
+      "express" : "^4.15.4",
+      "mysql" : "^2.14.1",
+      "body-parser" : "^1.17.2",
+      "util": "^0.10.3",
+      "json-validation" : "^1.0.4",
+      "multer" : "^1.3.0",
+      "path": "^0.12.7"
+  }
+}
+
